@@ -48,6 +48,8 @@ class MeeduPlayerController {
   /// use this class to hide some buttons in the player
   EnabledButtons enabledButtons;
 
+  bool isLive;
+
   /// use this class to disable controls in the player
   EnabledControls enabledControls;
 
@@ -304,6 +306,7 @@ class MeeduPlayerController {
   MeeduPlayerController({
     this.screenManager = const ScreenManager(),
     this.colorTheme = Colors.redAccent,
+    this.isLive = false,
     Widget? loadingWidget,
     this.controlsEnabled = true,
     this.manageWakeLock = true,

@@ -218,8 +218,10 @@ class _M3u8ExamplePageState extends State<M3u8ExamplePage> {
       screenManager: const ScreenManager(forceLandScapeInFullscreen: false),
       enabledButtons: const EnabledButtons(
         rewindAndfastForward: false,
+        
         pip: true,
       ),
+      isLive: true,
       pipEnabled: true,
       responsive: Responsive(buttonsSizeRelativeToScreen: 3));
   String fileName = "";
@@ -371,8 +373,9 @@ class _M3u8ExamplePageState extends State<M3u8ExamplePage> {
     );
   }
 
+  //https://content.jwplatform.com/manifests/vM7nH0Kl.m3u8
   TextEditingController url = TextEditingController(
-      text: "https://content.jwplatform.com/manifests/vM7nH0Kl.m3u8");
+      text: "https://www.dailymotion.com/cdn/live/video/x84t82c.m3u8?sec=gXhYGVu8pPJhLbnAHcDml5Te5tYpkKGkGmGKiRN8kq2sDW3vza7k5A01ZVifk1_7&dmTs=663976&dmV1st=de9ee617-0250-4a2f-a7f1-a52c1352d630");
 
   @override
   Widget build(BuildContext context) {

@@ -33,8 +33,17 @@ class PrimaryBottomControls extends StatelessWidget {
             }),
             // END VIDEO POSITION
             const SizedBox(width: 10),
-            const Expanded(
-              child: PlayerSlider(),
+            Expanded(
+              child: _.isLive
+                  ? const Text(
+                      'Live',
+                      style: TextStyle(
+                        color: Colors.redAccent,
+                        fontSize: 35,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    )
+                  : const PlayerSlider(),
             ),
             const SizedBox(width: 10),
             // START VIDEO DURATION

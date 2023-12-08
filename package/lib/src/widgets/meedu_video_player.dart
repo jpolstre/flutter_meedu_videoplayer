@@ -242,9 +242,11 @@ class _MeeduVideoPlayerState extends State<MeeduVideoPlayer> {
                         ),
                         if (_.controlsEnabled &&
                             _.controlsStyle == ControlsStyle.primary)
+                          
                           PrimaryVideoPlayerControls(
                             responsive: _.responsive,
                           ),
+
                         if (_.controlsEnabled &&
                             _.controlsStyle == ControlsStyle.primaryList)
                           PrimaryListVideoPlayerControls(
