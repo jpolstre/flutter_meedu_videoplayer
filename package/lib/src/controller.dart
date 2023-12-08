@@ -3,7 +3,7 @@ import 'dart:developer' as dev;
 import 'dart:math';
 
 import 'package:flutter/foundation.dart';
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart' hide Durations;
 import 'package:flutter_meedu/meedu.dart';
 import 'package:flutter_meedu_videoplayer/src/helpers/desktop_pip_bk.dart';
 import 'package:flutter_meedu_videoplayer/src/native/pip_manager.dart';
