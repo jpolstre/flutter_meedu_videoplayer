@@ -23,10 +23,11 @@ dependencies:
   meta: ^1.7.0
   universal_platform: ^1.0.0+1
   fullscreen_window: ^1.0.4
+  fvp: ^0.17.0 
   # video_player_cross_platform:
   #    path: ../../video_player_cross_platform
   # fvp: ^0.3.0
-  fvp: ^0.11.0 
+  # fvp: ^0.11.0 
   # fvp:
   #   git: https://github.com/wang-bin/fvp
   # fvp:
