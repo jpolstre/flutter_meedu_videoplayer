@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_meedu_videoplayer/meedu_player.dart';
 import 'package:universal_platform/universal_platform.dart';
+import 'package:flutter_meedu/rx/rx_builder.dart';
+
 
 class LockButton extends StatelessWidget {
   final Responsive responsive;

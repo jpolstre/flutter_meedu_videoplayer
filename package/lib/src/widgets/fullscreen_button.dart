@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_meedu_videoplayer/meedu_player.dart';
+import 'package:flutter_meedu/rx/rx_builder.dart';
+
 
 class FullscreenButton extends StatelessWidget {
   final double size;

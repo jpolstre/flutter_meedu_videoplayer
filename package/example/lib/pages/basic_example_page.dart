@@ -43,7 +43,7 @@ class _BasicExamplePageState extends State<BasicExamplePage> {
         DataSource(
           type: DataSourceType.network,
           source:
-              "https://movietrailers.apple.com/movies/paramount/the-spongebob-movie-sponge-on-the-run/the-spongebob-movie-sponge-on-the-run-big-game_h720p.mov",
+              "https://content.jwplatform.com/manifests/vM7nH0Kl.m3u8",
         ),
         autoplay: true,
         looping: false);

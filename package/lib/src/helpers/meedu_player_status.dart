@@ -1,4 +1,5 @@
-import 'package:flutter_meedu/meedu.dart';
+// import 'package:flutter_meedu/meedu.dart';
+import 'package:flutter_meedu/rx.dart';
 
 enum PlayerStatus { completed, playing, paused }
 
